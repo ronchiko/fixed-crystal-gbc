@@ -250,3 +250,28 @@ AnimationIdlePointers:
 	dw LugiaAnimationIdle
 	dw HoOhAnimationIdle
 	dw CelebiAnimationIdle
+	dw DuskullAnimationIdle
+	dw DuskclopsAnimationIdle
+	dw DusknoirAnimationIdle
+	dw ShuppetAnimationIdle
+	dw BanetteAnimationIdle
+	dw MunchlaxAnimationIdle
+	dw PhantumpAnimationIdle
+	dw TrevenantAnimationIdle
+	dw DuraludonAnimationIdle
+	dw BagonAnimationIdle
+	dw ShelgonAnimationIdle
+	dw SalamenceAnimationIdle
+	dw ApplinAnimationIdle
+	dw AppletunAnimationIdle
+	dw ElectivireAnimationIdle
+	dw MagmortarAnimationIdle
+	dw YanmegaAnimationIdle
+	dw TogekissAnimationIdle
+	dw MagnezoneAnimationIdle
+	dw MismagiusAnimationIdle
+	dw RhyperiorAnimationIdle
+	dw WeavileAnimationIdle
+	dw GliscorAnimationIdle
+	dw MamoswineAnimationIdle
+	dw HonchkrowAnimationIdle

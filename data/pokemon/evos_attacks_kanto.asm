@@ -1239,6 +1239,7 @@ MagnemiteEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagnetonEvosAttacks:
+	dbbw EVOLVE_LEVEL, 50, MAGNEZONE
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 1, THUNDERSHOCK
@@ -1641,7 +1642,7 @@ WeezingEvosAttacks:
 	db 0 ; no more level-up moves
 
 RhyhornEvosAttacks:
-	dbbw EVOLVE_LEVEL, 42, RHYDON
+	dbbw EVOLVE_LEVEL, 36, RHYDON
 	db 0 ; no more evolutions
 	dbw 1, HORN_ATTACK
 	dbw 1, TAIL_WHIP
@@ -1654,6 +1655,7 @@ RhyhornEvosAttacks:
 	db 0 ; no more level-up moves
 
 RhydonEvosAttacks:
+	dbw EVOLVE_LEVEL, 53, RHYPERIOR
 	db 0 ; no more evolutions
 	dbw 1, HORN_ATTACK
 	dbw 1, TAIL_WHIP
@@ -1836,6 +1838,7 @@ JynxEvosAttacks:
 	db 0 ; no more level-up moves
 
 ElectabuzzEvosAttacks:
+	dbbw EVOLVE_ITEM, THUNDERSTONE, ELECTIVIRE
 	db 0 ; no more evolutions
 	dbw 1, QUICK_ATTACK
 	dbw 1, LEER
@@ -1849,6 +1852,7 @@ ElectabuzzEvosAttacks:
 	db 0 ; no more level-up moves
 
 MagmarEvosAttacks:
+	dbbw EVOLVE_ITEM, FIRE_STONE, MAGMORTAR
 	db 0 ; no more evolutions
 	dbw 1, EMBER
 	dbw 1, LEER

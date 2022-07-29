@@ -250,3 +250,28 @@ AnimationPointers:
 	dw LugiaAnimation
 	dw HoOhAnimation
 	dw CelebiAnimation
+	dw DuskullAnimation
+	dw DuskclopsAnimation
+	dw DusknoirAnimation
+	dw ShuppetAnimation
+	dw BanetteAnimation
+	dw MunchlaxAnimation
+	dw PhantumpAnimation
+	dw TrevenantAnimation
+	dw DuraludonAnimation
+	dw BagonAnimation
+	dw ShelgonAnimation
+	dw SalamenceAnimation
+	dw ApplinAnimation
+	dw AppletunAnimation
+	dw ElectivireAnimation
+	dw MagmortarAnimation
+	dw YanmegaAnimation
+	dw TogekissAnimation
+	dw MagnezoneAnimation
+	dw MismagiusAnimation
+	dw RhyperiorAnimation
+	dw WeavileAnimation
+	dw GliscorAnimation
+	dw MamoswineAnimation
+	dw HonchkrowAnimation

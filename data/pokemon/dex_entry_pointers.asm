@@ -251,3 +251,28 @@ PokedexDataPointerTable:
 	dba LugiaPokedexEntry
 	dba HoOhPokedexEntry
 	dba CelebiPokedexEntry
+	dba DuskullPokedexEntry
+	dba DuskclopsPokedexEntry
+	dba DusknoirPokedexEntry
+	dba ShuppetPokedexEntry
+	dba BanettePokedexEntry
+	dba MunchlaxPokedexEntry
+	dba PhantumpPokedexEntry
+	dba TrevenantPokedexEntry
+	dba DuraludonPokedexEntry
+	dba BagonPokedexEntry
+	dba ShelgonPokedexEntry
+	dba SalamencePokedexEntry
+	dba ApplinPokedexEntry
+	dba AppletunPokedexEntry
+	dba ElectivirePokedexEntry
+	dba MagmortarPokedexEntry
+	dba YanmegaPokedexEntry
+	dba TogekissPokedexEntry
+	dba MagnezonePokedexEntry
+	dba MismagiusPokedexEntry
+	dba RhyperiorPokedexEntry
+	dba WeavilePokedexEntry
+	dba GliscorPokedexEntry
+	dba MamoswinePokedexEntry
+	dba HonchkrowPokedexEntry

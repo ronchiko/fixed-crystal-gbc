@@ -515,3 +515,54 @@ PokemonPicPointers::
 	dba HoOhBackpic
 	dba CelebiFrontpic
 	dba CelebiBackpic
+	dba DuskullFrontpic
+	dba DuskullBackpic
+	dba DuskclopsFrontpic
+	dba DuskclopsBackpic
+	dba DusknoirFrontpic
+	dba DusknoirBackpic
+	dba ShuppetFrontpic
+	dba ShuppetBackpic
+	dba BanetteFrontpic
+	dba BanetteBackpic
+	dba MunchlaxFrontpic
+	dba MunchlaxBackpic
+	dba PhantumpFrontpic
+	dba PhantumpBackpic
+	dba TrevenantFrontpic
+	dba TrevenantBackpic
+	dba DuraludonFrontpic
+	dba DuraludonBackpic	
+	dba BagonFrontpic
+	dba BagonBackpic
+	dba ShelgonFrontpic
+	dba ShelgonBackpic
+	dba SalamenceFrontpic
+	dba SalamenceBackpic
+	dba ApplinFrontpic
+	dba ApplinBackpic
+	dba AppletunFrontpic
+	dba AppletunBackpic
+	dba ElectivireFrontpic
+	dba ElectivireBackpic
+
+	dba MagmortarFrontpic
+	dba MagmortarBackpic
+	dba YanmegaFrontpic
+	dba YanmegaBackpic	
+	dba TogekissFrontpic
+	dba TogekissBackpic
+	dba MagnezoneFrontpic
+	dba MagnezoneBackpic
+	dba MismagiusFrontpic
+	dba MismagiusBackpic
+	dba RhyperiorFrontpic
+	dba RhyperiorBackpic
+	dba WeavileFrontpic
+	dba WeavileBackpic
+	dba GliscorFrontpic
+	dba GliscorBackpic
+	dba MamoswineFrontpic
+	dba MamoswineBackpic
+	dba HonchkrowFrontpic
+	dba HonchkrowBackpic

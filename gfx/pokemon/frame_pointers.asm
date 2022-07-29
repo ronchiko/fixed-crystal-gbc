@@ -250,3 +250,28 @@ FramesPointers:
 	dba LugiaFrames
 	dba HoOhFrames
 	dba CelebiFrames
+	dba DuskullFrames
+	dba DuskclopsFrames
+	dba DusknoirFrames
+	dba ShuppetFrames
+	dba BanetteFrames
+	dba MunchlaxFrames
+	dba PhantumpFrames
+	dba TrevenantFrames
+	dba DuraludonFrames
+	dba BagonFrames
+	dba ShelgonFrames
+	dba SalamenceFrames
+	dba ApplinFrames
+	dba AppletunFrames
+	dba ElectivireFrames
+	dba MagmortarFrames
+	dba YanmegaFrames
+	dba TogekissFrames
+	dba MagnezoneFrames
+	dba MismagiusFrames
+	dba RhyperiorFrames
+	dba WeavileFrames
+	dba GliscorFrames
+	dba MamoswineFrames
+	dba HonchkrowFrames

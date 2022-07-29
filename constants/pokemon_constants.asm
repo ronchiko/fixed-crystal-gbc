@@ -271,6 +271,31 @@ JOHTO_POKEMON EQU const_value
 	const LUGIA      ; f9
 	const HO_OH      ; fa
 	const CELEBI     ; fb
+	const DUSKULL
+	const DUSKCLOPS
+	const DUSKNOIR
+	const SHUPPET
+	const BANETTE
+	const MUNCHLAX
+	const PHANTUMP
+	const TREVENANT
+	const DURALUDON
+	const BAGON
+	const SHELGON
+	const SALAMENCE
+	const APPLIN
+	const APPLETUN
+	const ELECTIVIRE
+	const MAGMORTAR
+	const YANMEGA
+	const TOGEKISS
+	const MAGNEZONE
+	const MISMAGIUS
+	const RHYPERIOR
+	const WEAVILE
+	const GLISCOR
+	const MAMOSWINE
+	const HONCHKROW
 NUM_POKEMON EQU const_value + -1
 
 EGG EQU -3

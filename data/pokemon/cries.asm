@@ -256,3 +256,28 @@ PokemonCries::
 	mon_cry CRY_TYPHLOSION,  $000,  $100 ; LUGIA
 	mon_cry CRY_AIPOM,       $000,  $180 ; HO_OH
 	mon_cry CRY_ENTEI,       $14a,  $111 ; CELEBI
+	mon_cry CRY_METAPOD,     $000,  $090 ; DUSKULL
+	mon_cry CRY_METAPOD,     $01a,  $130 ; DUSKCLOPS
+	mon_cry CRY_METAPOD,     $02b,  $152 ; DUSKNOIR
+	mon_cry CRY_METAPOD,     $000,  $100 ; SHUPPET
+	mon_cry CRY_METAPOD,     $000,  $100 ; BANETTE
+	mon_cry CRY_GRIMER,      $101,  $128 ; MUNCHLAX
+	mon_cry CRY_BULBASAUR,   $021,  $060 ; PHANTUMP
+	mon_cry CRY_BULBASAUR,   $101,  $128 ; TREVENANT
+	mon_cry CRY_SLOWKING,    $101,  $176 ; DURALUDON
+	mon_cry CRY_CHARMANDER,  $02d,  $060 ; BAGON
+	mon_cry CRY_CHARMANDER,  $040,  $100 ; SHELGON
+	mon_cry CRY_CHARMANDER,  $03c,  $140 ; SALAMENCE
+	mon_cry CRY_BULBASAUR,   $04e,  $03e ; APPLTIN
+	mon_cry CRY_BULBASAUR,   $071,  $072 ; APPLETUN
+	mon_cry CRY_VOLTORB,     $07f,  $18f ; ELECTIVIRE
+	mon_cry CRY_CHARMANDER,  $0bf,  $1b0 ; MAGMORTAR
+	mon_cry CRY_TOTODILE,    $061,  $128 ; YANMEGA
+	mon_cry CRY_TOGETIC,     $0af,  $12f ; TOGEKISS
+	mon_cry CRY_METAPOD,     $040,  $160 ; MAGNEZONE
+	mon_cry CRY_HOOTHOOT,    $11a,  $0e8 ; MISMAGIUS
+	mon_cry CRY_RHYDON,     -$020,  $080 ; RHYPERIOR
+	mon_cry CRY_WOOPER,      $0c3,  $07f ; WEAVILE
+	mon_cry CRY_GLIGAR,     -$102,  $100 ; GLISCOR
+	mon_cry CRY_MAGCARGO,   -$130,  $110 ; MAMOSWINE
+	mon_cry CRY_MARILL,     -$04f,  $19f ; HONCHKROW

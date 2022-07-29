@@ -250,3 +250,28 @@ BitmasksPointers:
 	dw LugiaBitmasks
 	dw HoOhBitmasks
 	dw CelebiBitmasks
+	dw DuskullBitmasks
+	dw DuskclopsBitmasks
+	dw DusknoirBitmasks
+	dw ShuppetBitmasks
+	dw BanetteBitmasks
+	dw MunchlaxBitmasks
+	dw PhantumpBitmasks
+	dw TrevenantBitmasks
+	dw DuraludonBitmasks
+	dw BagonBitmasks
+	dw ShelgonBitmasks
+	dw SalamenceBitmasks
+	dw ApplinBitmasks
+	dw AppletunBitmasks
+	dw ElectivireBitmasks
+	dw MagmortarBitmasks
+	dw YanmegaBitmasks
+	dw TogekissBitmasks
+	dw MagnezoneBitmasks
+	dw MismagiusBitmasks
+	dw RhyperiorBitmasks
+	dw WeavileBitmasks
+	dw GliscorBitmasks
+	dw MamoswineBitmasks
+	dw HonchkrowBitmasks

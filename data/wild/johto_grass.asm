@@ -1193,56 +1193,56 @@ JohtoGrassWildMons:
 	map_id ROUTE_29
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 2, PIDGEY
-	dbw 2, SENTRET
-	dbw 3, PIDGEY
-	dbw 3, SENTRET
 	dbw 2, RATTATA
-	dbw 3, HOPPIP
-	dbw 3, HOPPIP
+	dbw 2, PIDGEY 
+	dbw 3, RATTATA
+	dbw 3, RATTATA
+	dbw 2, PIDGEY
+	dbw 3, PIDGEY
+	dbw 3, RATTATA
 	; day
-	dbw 2, PIDGEY
-	dbw 2, SENTRET
-	dbw 3, PIDGEY
-	dbw 3, SENTRET
 	dbw 2, RATTATA
-	dbw 3, HOPPIP
-	dbw 3, HOPPIP
+	dbw 2, RATTATA 
+	dbw 3, PIDGEY
+	dbw 3, PIDGEY
+	dbw 2, RATTATA
+	dbw 3, RATTATA
+	dbw 3, PIDGEY
 	; nite
-	dbw 2, HOOTHOOT
+	dbw 2, RATTATA
+	dbw 2, RATTATA 
+	dbw 3, RATTATA
+	dbw 3, HOOTHOOT
 	dbw 2, RATTATA
 	dbw 3, HOOTHOOT
 	dbw 3, RATTATA
-	dbw 2, RATTATA
-	dbw 3, HOOTHOOT
-	dbw 3, HOOTHOOT
 
 	map_id ROUTE_30
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite
 	; morn
-	dbw 3, LEDYBA
 	dbw 3, CATERPIE
-	dbw 4, CATERPIE
+	dbw 3, CATERPIE
 	dbw 4, PIDGEY
-	dbw 3, WEEDLE
-	dbw 4, HOPPIP
-	dbw 4, HOPPIP
-	; day
+	dbw 4, LEDYBA
 	dbw 3, PIDGEY
+	dbw 4, WEEDLE
+	dbw 4, LEDYBA
+	; day
 	dbw 3, CATERPIE
-	dbw 4, CATERPIE
+	dbw 3, CATERPIE
 	dbw 4, PIDGEY
-	dbw 3, WEEDLE
-	dbw 4, HOPPIP
-	dbw 4, HOPPIP
+	dbw 4, WEEDLE
+	dbw 3, PIDGEY
+	dbw 4, CATERPIE
+	dbw 4, SPEAROW
 	; nite
+	dbw 3, CATERPIE
+	dbw 3, CATERPIE
+	dbw 4, WEEDLE
+	dbw 4, SPINARAK
 	dbw 3, SPINARAK
-	dbw 3, HOOTHOOT
-	dbw 4, POLIWAG
 	dbw 4, HOOTHOOT
-	dbw 3, ZUBAT
-	dbw 4, HOOTHOOT
-	dbw 4, HOOTHOOT
+	dbw 4, METAPOD
 
 	map_id ROUTE_31
 	db 10 percent, 10 percent, 10 percent ; encounter rates: morn/day/nite

@@ -101,6 +101,31 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw DuskullEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
+	dw ShuppetEggMoves
+	dw NoEggMoves2
+	dw MunchlaxEggMoves
+	dw PhantumpEggMoves
+	dw NoEggMoves2
+	dw DuraludonEggMoves
+	dw BagonEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
+	dw ApplinEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2	; Electivire
+	dw NoEggMoves2	; Magmortar
+	dw NoEggMoves2	; Yanmega
+	dw NoEggMoves2	; Togekiss
+	dw NoEggMoves2	; Magnezone
+	dw NoEggMoves2  ; Mismagius
+	dw NoEggMoves2  ; Rhyperior
+	dw NoEggMoves2  ; Weavile
+	dw NoEggMoves2	; Gliscor
+	dw NoEggMoves2  ; Mamoswine
+	dw NoEggMoves2	; Honchkrow
 
 ChikoritaEggMoves:
 	dw VINE_WHIP
@@ -465,5 +490,46 @@ LarvitarEggMoves:
 	dw OUTRAGE
 	dw FOCUS_ENERGY
 	dw ANCIENTPOWER
+	dw -1
+
+DuskullEggMoves:
+	dw DESTINY_BOND
+	dw HAZE
+	dw PAIN_SPLIT
+	dw -1
+
+ShuppetEggMoves:
+	dw CONFUSE_RAY
+	dw DESTINY_BOND
+	dw DISABLE
+	dw -1
+
+MunchlaxEggMoves:
+	dw LICK
+	dw -1 ; end
+
+PhantumpEggMoves:
+	dw GIGA_DRAIN
+	dw DESTINY_BOND
+	dw -1
+
+DuraludonEggMoves:
+	dw IRON_TAIL
+	dw MIRROR_COAT
+	dw SLASH
+	dw -1
+
+BagonEggMoves:
+	dw DEFENSE_CURL
+	dw HYDRO_PUMP
+	dw THRASH
+	dw TWISTER
+	dw -1
+
+ApplinEggMoves:
+	dw ROLLOUT
+	dw OUTRAGE
+	dw -1
+
 NoEggMoves2:
 	dw -1 ; end

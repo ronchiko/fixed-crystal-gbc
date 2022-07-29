@@ -6,11 +6,15 @@ AlphabeticalPokedexOrder:
 	dw AIPOM
 	dw ALAKAZAM
 	dw AMPHAROS
+	dw APPLIN
+	dw APPLETUN
 	dw ARBOK
 	dw ARCANINE
 	dw ARIADOS
 	dw ARTICUNO
 	dw AZUMARILL
+	dw BAGON
+	dw BANETTE
 	dw BAYLEEF
 	dw BEEDRILL
 	dw BELLOSSOM
@@ -48,10 +52,15 @@ AlphabeticalPokedexOrder:
 	dw DRATINI
 	dw DROWZEE
 	dw DUGTRIO
+	dw DURALUDON
+	dw DUSKCLOPS
+	dw DUSKNOIR	
+	dw DUSKULL
 	dw DUNSPARCE
 	dw EEVEE
 	dw EKANS
 	dw ELECTABUZZ
+	dw ELECTIVIRE
 	dw ELECTRODE
 	dw ELEKID
 	dw ENTEI
@@ -70,6 +79,7 @@ AlphabeticalPokedexOrder:
 	dw GEODUDE
 	dw GIRAFARIG
 	dw GLIGAR
+	dw GLISCOR
 	dw GLOOM
 	dw GOLBAT
 	dw GOLDEEN
@@ -87,6 +97,7 @@ AlphabeticalPokedexOrder:
 	dw HITMONTOP
 	dw HO_OH
 	dw HOOTHOOT
+	dw HONCHKROW
 	dw HOPPIP
 	dw HORSEA
 	dw HOUNDOOM
@@ -121,8 +132,11 @@ AlphabeticalPokedexOrder:
 	dw MAGCARGO
 	dw MAGIKARP
 	dw MAGMAR
+	dw MAGMORTAR
 	dw MAGNEMITE
 	dw MAGNETON
+	dw MAGNEZONE
+	dw MAMOSWINE
 	dw MANKEY
 	dw MANTINE
 	dw MAREEP
@@ -135,9 +149,11 @@ AlphabeticalPokedexOrder:
 	dw MEWTWO
 	dw MILTANK
 	dw MISDREAVUS
+	dw MISMAGIUS
 	dw MOLTRES
 	dw MR__MIME
 	dw MUK
+	dw MUNCHLAX
 	dw MURKROW
 	dw NATU
 	dw NIDOKING
@@ -157,6 +173,7 @@ AlphabeticalPokedexOrder:
 	dw PARASECT
 	dw PERSIAN
 	dw PHANPY
+	dw PHANTUMP
 	dw PICHU
 	dw PIDGEOT
 	dw PIDGEOTTO
@@ -186,6 +203,8 @@ AlphabeticalPokedexOrder:
 	dw REMORAID
 	dw RHYDON
 	dw RHYHORN
+	dw RHYPERIOR
+	dw SALAMENCE
 	dw SANDSHREW
 	dw SANDSLASH
 	dw SCIZOR
@@ -194,8 +213,10 @@ AlphabeticalPokedexOrder:
 	dw SEAKING
 	dw SEEL
 	dw SENTRET
+	dw SHELGON
 	dw SHELLDER
 	dw SHUCKLE
+	dw SHUPPET
 	dw SKARMORY
 	dw SKIPLOOM
 	dw SLOWBRO
@@ -224,10 +245,12 @@ AlphabeticalPokedexOrder:
 	dw TEDDIURSA
 	dw TENTACOOL
 	dw TENTACRUEL
+	dw TOGEKISS
 	dw TOGEPI
 	dw TOGETIC
 	dw TOTODILE
 	dw TYPHLOSION
+	dw TREVENANT
 	dw TYRANITAR
 	dw TYROGUE
 	dw UMBREON
@@ -242,6 +265,7 @@ AlphabeticalPokedexOrder:
 	dw VOLTORB
 	dw VULPIX
 	dw WARTORTLE
+	dw WEAVILE
 	dw WEEDLE
 	dw WEEPINBELL
 	dw WEEZING
@@ -250,5 +274,6 @@ AlphabeticalPokedexOrder:
 	dw WOOPER
 	dw XATU
 	dw YANMA
+	dw YANMEGA
 	dw ZAPDOS
 	dw ZUBAT
