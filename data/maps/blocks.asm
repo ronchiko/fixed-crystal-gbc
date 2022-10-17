@@ -1045,3 +1045,7 @@ BetaBlank_Blocks:
 
 GoldenrodDeptStoreRoof_Blocks:
 	INCBIN "maps/GoldenrodDeptStoreRoof.blk"
+
+MoltresCave_Blocks:
+	INCBIN "maps/MoltresCave.blk"
+

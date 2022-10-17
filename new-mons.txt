@@ -1,3 +1,4 @@
+NEW_MONS:
 Duskull - Ghost
 Duskclops - Ghost
 Dusknoir - Ghost
@@ -13,7 +14,6 @@ Salamence - Dragon Flying
 Applin - grass dragon
 Appletun - grass dragon
 Electivire - Elct
-
 Magmortar - Fire
 Yanmega - Drg/ Bug
 Mismagius - Ghost
@@ -21,8 +21,26 @@ Weavile - Ice Dark
 Mamoswine - Ice / Ground
 Honchkrow - Dark/ Flying
 Rhyperior - Rock Ground
-
 Togekiss - Flying
 Magnezone - Steel/ Elec
 Gliscor - Ground / Flying
 
+New Moves:
+===
+Nasty Plot - Dark
+Night Slash - Dark
+Dark Pulse - Dark
+Heavy Slam - Steel
+Bullet Punch - Steel
+X-Scissor - Bug
+Lunge - Bug
+Dragon Tail - Dragon
+Dragon Pulse - Dragon
+Dragon Dance - Dragon
+Quiver Dance - Bug
+
+New items
+===
+Blue orb
+Red orb
+Yellow orb

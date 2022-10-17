@@ -18,7 +18,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	dbw 15, WOOPER
 	dbw 20, QUAGSIRE
-	dbw 15, QUAGSIRE
+	dbw 15, CHINCHOU
 
 	map_id UNION_CAVE_B2F
 	db 4 percent ; encounter rate
@@ -126,7 +126,7 @@ JohtoWaterWildMons:
 	db 6 percent ; encounter rate
 	dbw 15, TENTACOOL
 	dbw 20, QUAGSIRE
-	dbw 20, TENTACRUEL
+	dbw 20, CHINCHOU
 
 	map_id ROUTE_34
 	db 6 percent ; encounter rate
@@ -174,7 +174,7 @@ JohtoWaterWildMons:
 	db 2 percent ; encounter rate
 	dbw 20, MAGIKARP
 	dbw 15, MAGIKARP
-	dbw 5, MAGIKARP
+	dbw 15, CHINCHOU
 
 	map_id NEW_BARK_TOWN
 	db 6 percent ; encounter rate
@@ -222,7 +222,7 @@ JohtoWaterWildMons:
 	db 4 percent ; encounter rate
 	dbw 15, MAGIKARP
 	dbw 10, MAGIKARP
-	dbw 5, MAGIKARP
+	dbw 15, CHINCHOU
 
 	map_id SILVER_CAVE_OUTSIDE
 	db 2 percent ; encounter rate

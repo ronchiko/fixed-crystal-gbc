@@ -256,6 +256,17 @@ MoveDescriptions1:
 	dw RockSmashDescription
 	dw WhirlpoolDescription
 	dw BeatUpDescription
+	dw NastyPlotDescription
+	dw NightSlashDescription
+	dw DarkPulseDescription
+	dw HeavySlamDescription
+	dw BulletPunchDescription
+	dw XScissorDescription
+	dw LungeDescription
+	dw DragonTailDescription
+	dw DragonPulseDescription
+	dw DragonDanceDescription
+	dw QuiverDanceDescription
 
 InvalidMoveDescription:
 	db "?@"
@@ -372,6 +383,7 @@ SandAttackDescription:
 	db   "Reduces accuracy"
 	next "by throwing sand.@"
 
+DarkPulseDescription:
 HeadbuttDescription:
 	db   "An attack that may"
 	next "make foe flinch.@"
@@ -640,6 +652,10 @@ HypnosisDescription:
 	db   "May put the foe to"
 	next "sleep.@"
 
+NastyPlotDescription:
+	db   "Sharply increases"
+	next "the user's ATTACK@"
+
 MeditateDescription:
 	db   "Raises the user's"
 	next "ATTACK.@"
@@ -648,6 +664,7 @@ AgilityDescription:
 	db   "Sharply increases"
 	next "the user's SPEED.@"
 
+BulletPunchDescription:
 QuickAttackDescription:
 	db   "Lets the user get"
 	next "in the first hit.@"
@@ -909,6 +926,7 @@ SuperFangDescription:
 	next "by 1/2.@"
 
 SlashDescription:
+NightSlashDescription:
 	db   "Has a high criti-"
 	next "cal hit ratio.@"
 
@@ -1263,3 +1281,31 @@ WhirlpoolDescription:
 BeatUpDescription:
 	db   "Party #MON join"
 	next "in the attack.@"
+
+HeavySlamDescription:
+	db   "Does damage using"
+	next "the user's weight@"
+
+XScissorDescription:
+	db   "Slashes the foe"
+	next "with sharp claws.@"
+
+LungeDescription:
+	db   "Damages and lowers"
+	next "the foe's ATTACK.@"
+
+DragonTailDescription:
+	db   "Hits & knocks away"
+	next "the foe.@"
+
+DragonPulseDescription:
+	db 	 "A mouth wave that"
+	next "hurts the foe.@"
+
+DragonDanceDescription:
+	db 	 "Raises the user's"
+	next "ATTACK & SPEED.@"
+
+QuiverDanceDescription:
+	db   "Raises the user's"
+	next "SPECIALs & SPEED.@"

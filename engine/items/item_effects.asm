@@ -37,7 +37,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
-	dw NoEffect            ; ITEM_19
+	dw NoEffect            ; BLUE ORB
 	dw VitaminEffect       ; HP_UP
 	dw VitaminEffect       ; PROTEIN
 	dw VitaminEffect       ; IRON
@@ -102,7 +102,7 @@ ItemEffects:
 	dw NoEffect            ; BIG_MUSHROOM
 	dw NoEffect            ; SILVERPOWDER
 	dw NoEffect            ; BLU_APRICORN
-	dw NoEffect            ; ITEM_5A
+	dw NoEffect            ; REB ORB
 	dw NoEffect            ; AMULET_COIN
 	dw NoEffect            ; YLW_APRICORN
 	dw NoEffect            ; GRN_APRICORN
@@ -112,7 +112,7 @@ ItemEffects:
 	dw NoEffect            ; WHT_APRICORN
 	dw NoEffect            ; BLACKBELT
 	dw NoEffect            ; BLK_APRICORN
-	dw NoEffect            ; ITEM_64
+	dw NoEffect            ; YELLOW ORB
 	dw NoEffect            ; PNK_APRICORN
 	dw NoEffect            ; BLACKGLASSES
 	dw NoEffect            ; SLOWPOKETAIL

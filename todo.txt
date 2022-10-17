@@ -1,0 +1,17 @@
+TODO list:
+
+Map out the kanto gym order
+Map out the johto gym order
+
+Add kanto legendary birds encounters
+Mew & Mewtwo events
+Celebi encounter
+
+QUESTS TO ADD:
+
+For the red orb:
+-> Talk to NPC which tell of a burgler that stole one of its item and the burgler is somewhere
+-> you go and fight the burgler
+-> The burgler retreats to his hideout
+-> You go there and fight him again
+-> You find the orb in its hideout

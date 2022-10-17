@@ -15,13 +15,12 @@ SometimesFleeMons:
 	dw UNOWN
 	dw SNUBBULL
 	dw HERACROSS
+	dw BAGON
+	dw APPLIN
 	dw -1
 
 OftenFleeMons:
 	dw CUBONE
-	dw ARTICUNO
-	dw ZAPDOS
-	dw MOLTRES
 	dw QUAGSIRE
 	dw DELIBIRD
 	dw PHANPY

@@ -30,7 +30,7 @@
 	const FIRE_STONE   ; 16
 	const THUNDERSTONE ; 17
 	const WATER_STONE  ; 18
-	const ITEM_19      ; 19
+	const BLUE_ORB     ; 19
 	const HP_UP        ; 1a
 	const PROTEIN      ; 1b
 	const IRON         ; 1c
@@ -95,7 +95,7 @@
 	const BIG_MUSHROOM ; 57
 	const SILVERPOWDER ; 58
 	const BLU_APRICORN ; 59
-	const ITEM_5A      ; 5a
+	const RED_ORB      ; 5a
 	const AMULET_COIN  ; 5b
 	const YLW_APRICORN ; 5c
 	const GRN_APRICORN ; 5d
@@ -105,7 +105,7 @@
 	const WHT_APRICORN ; 61
 	const BLACKBELT    ; 62
 	const BLK_APRICORN ; 63
-	const ITEM_64      ; 64
+	const YELLOW_ORB   ; 64
 	const PNK_APRICORN ; 65
 	const BLACKGLASSES ; 66
 	const SLOWPOKETAIL ; 67

@@ -53,6 +53,7 @@ AzaleaTownRivalBattleScene2:
 	appear AZALEATOWN_SILVER
 	applymovement AZALEATOWN_SILVER, AzaleaTownRivalBattleApproachMovement2
 	turnobject PLAYER, UP
+	
 AzaleaTownRivalBattleScript:
 	playmusic MUSIC_RIVAL_ENCOUNTER
 	opentext
@@ -64,6 +65,8 @@ AzaleaTownRivalBattleScript:
 	iftrue .Totodile
 	checkevent EVENT_GOT_CHIKORITA_FROM_ELM
 	iftrue .Chikorita
+
+.Cyndaquil:	
 	winlosstext AzaleaTownRivalWinText, AzaleaTownRivalLossText
 	setlasttalked AZALEATOWN_SILVER
 	loadtrainer RIVAL1, RIVAL1_2_TOTODILE

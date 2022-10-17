@@ -860,8 +860,11 @@ GligarEvosAttacks:
 
 SteelixEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, TACKLE
-	dbw 1, SCREECH
+	dbw 1, HEAVY_SLAM
+	dbw 1, NASTY_PLOT
+	dbw 1, DRAGON_TAIL
+	; dbw 1, TACKLE
+	; dbw 1, SCREECH
 	dbw 10, BIND
 	dbw 14, ROCK_THROW
 	dbw 23, HARDEN
@@ -913,8 +916,12 @@ QwilfishEvosAttacks:
 
 ScizorEvosAttacks:
 	db 0 ; no more evolutions
-	dbw 1, QUICK_ATTACK
-	dbw 1, LEER
+	dbw 1, X_SCISSOR
+	dbw 1, QUIVER_DANCE
+	dbw 1, LUNGE
+	dbw 1, BULLET_PUNCH
+	; dbw 1, QUICK_ATTACK
+	; dbw 1, LEER
 	dbw 6, FOCUS_ENERGY
 	dbw 12, PURSUIT
 	dbw 18, FALSE_SWIPE
@@ -1600,10 +1607,14 @@ ShelgonEvosAttacks:
 
 SalamenceEvosAttacks:
 	db 0
-	dbw 1, EMBER
-	dbw 1, PROTECT
-	dbw 1, BITE
-	dbw 1, DRAGONBREATH
+	dbw 1, DRAGON_DANCE
+	dbw 1, NIGHT_SLASH
+	dbw 1, DRAGON_PULSE
+	dbw 1, DARK_PULSE
+	; dbw 1, EMBER
+	; dbw 1, PROTECT
+	; dbw 1, BITE
+	; dbw 1, DRAGONBREATH
 	dbw 50, WING_ATTACK	
 	dbw 58, FLAMETHROWER
 	dbw 63, SKY_ATTACK

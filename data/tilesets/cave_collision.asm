@@ -58,7 +58,7 @@
 	tilecoll HOP_DOWN, HOP_DOWN, WALL, WALL ; 39
 	tilecoll HOP_DOWN_RIGHT, WALL, WALL, WALL ; 3a
 	tilecoll WALL, HOP_LEFT, WALL, HOP_LEFT ; 3b
-	tilecoll HOP_RIGHT, WALL, HOP_RIGHT, WALL ; 3c
-	tilecoll WATER, WATER, WATER, WATER ; 3d
-	tilecoll WATER, WATER, WATER, WATER ; 3e
-	tilecoll FLOOR, FLOOR, PIT, FLOOR ; 3f
+	tilecoll WALL, FLOOR, FLOOR, FLOOR ; 3c
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 3d
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 3e
+	tilecoll FLOOR, FLOOR, FLOOR, FLOOR ; 3f

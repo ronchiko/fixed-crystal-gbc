@@ -1,5 +1,6 @@
 	object_const_def ; object_event constants
 	const CINNABARISLAND_BLUE
+	const CINNABARISLAND_POKE_BALL
 
 CinnabarIsland_MapScripts:
 	db 0 ; scene scripts
@@ -38,6 +39,9 @@ CinnabarIslandHiddenRareCandy:
 CinnabarIslandBlueTeleport:
 	teleport_from
 	step_end
+
+Cinnabar_Elixir:
+	itemball ELIXER
 
 CinnabarIslandBlueText:
 	text "Who are you?"
@@ -128,8 +132,9 @@ CinnabarIslandSignText:
 CinnabarIsland_MapEvents:
 	db 0, 0 ; filler
 
-	db 1 ; warp events
+	db 2 ; warp events
 	warp_event 11, 11, CINNABAR_POKECENTER_1F, 1
+	warp_event 14, 5,  MOLTRES_CAVE, 1
 
 	db 0 ; coord events
 
@@ -137,7 +142,8 @@ CinnabarIsland_MapEvents:
 	bg_event 12, 11, BGEVENT_READ, CinnabarIslandPokecenterSign
 	bg_event  9, 11, BGEVENT_READ, CinnabarIslandGymSign
 	bg_event  7,  7, BGEVENT_READ, CinnabarIslandSign
-	bg_event  9,  1, BGEVENT_ITEM, CinnabarIslandHiddenRareCandy
+	bg_event 11,  4, BGEVENT_ITEM, CinnabarIslandHiddenRareCandy
 
-	db 1 ; object events
-	object_event  9,  6, SPRITE_BLUE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CinnabarIslandBlue, EVENT_BLUE_IN_CINNABAR
+	db 2 ; object events
+	object_event  17, 6, SPRITE_BLUE, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, CinnabarIslandBlue, EVENT_BLUE_IN_CINNABAR
+	object_event  11, 1, SPRITE_POKE_BALL, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_ITEMBALL, 0, Cinnabar_Elixir, EVENT_CINNABAR_ELIXER  

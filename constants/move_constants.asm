@@ -257,6 +257,17 @@
 	const ROCK_SMASH   ; f9
 	const WHIRLPOOL    ; fa
 	const BEAT_UP      ; fb
+	const NASTY_PLOT   ; fc
+	const NIGHT_SLASH  ; fd
+	const DARK_PULSE   ; fe
+	const HEAVY_SLAM   ; ff
+	const BULLET_PUNCH ; 100
+	const X_SCISSOR    ; 101
+	const LUNGE        ; 102
+	const DRAGON_TAIL  ; 103
+	const DRAGON_PULSE ; 104
+	const DRAGON_DANCE ; 105
+	const QUIVER_DANCE ; 106
 NUM_ATTACKS EQU const_value + -1
 
 	if NUM_ATTACKS > $3fff

@@ -24,7 +24,7 @@ ItemDescriptions:
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
-	dw QuestionMarkDesc
+	dw BlueOrbDesc
 	dw HPUpDesc
 	dw ProteinDesc
 	dw IronDesc
@@ -89,7 +89,7 @@ ItemDescriptions:
 	dw BigMushroomDesc
 	dw SilverPowderDesc
 	dw BluApricornDesc
-	dw QuestionMarkDesc
+	dw RebOrbDesc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
@@ -99,7 +99,7 @@ ItemDescriptions:
 	dw WhtApricornDesc
 	dw BlackbeltDesc
 	dw BlkApricornDesc
-	dw QuestionMarkDesc
+	dw YellowOrbDesc
 	dw PnkApricornDesc
 	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
@@ -912,3 +912,14 @@ MusicMailDesc:
 MewMailDesc:
 	db   "MEW-print MAIL."
 	next "(HOLD)@"
+
+RebOrbDesc:
+	db	 "A glowing red orb@"
+
+BlueOrbDesc:
+	db	 "A glowing blue orb"
+	next "@"
+
+YellowOrbDesc:
+	db	 "A glowing yellow"
+	next "orb@"

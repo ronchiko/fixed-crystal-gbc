@@ -3,6 +3,7 @@
 	const PLAYERSHOUSE2F_DOLL_1
 	const PLAYERSHOUSE2F_DOLL_2
 	const PLAYERSHOUSE2F_BIG_DOLL
+	const PLAYERSHOUSE2F_BIG_DOLL_2
 
 PlayersHouse2F_MapScripts:
 	db 0 ; scene scripts
@@ -40,6 +41,25 @@ Doll2Script:
 
 BigDollScript:
 	describedecoration DECODESC_BIG_DOLL
+
+HelpScript:
+	opentext
+	givepoke SCIZOR, 50
+	givepoke STEELIX, 50
+	givepoke SALAMENCE, 50
+	givepoke WEAVILE, 50
+	giveitem BLUE_ORB
+	giveitem RED_ORB
+	giveitem YELLOW_ORB
+	giveitem MASTER_BALL, 5
+	closetext
+	warp CINNABAR_ISLAND, 7, 12
+.Tested:
+	opentext
+	writetext TestText1
+	waitbutton
+	closetext
+	end
 
 GameConsoleScript:
 	describedecoration DECODESC_CONSOLE
@@ -113,6 +133,10 @@ PlayersRadioText4:
 	line "#MON CHANNEL…"
 	done
 
+TestText1:
+	text "Done!"
+	done
+
 PlayersHouse2F_MapEvents:
 	db 0, 0 ; filler
 
@@ -127,8 +151,9 @@ PlayersHouse2F_MapEvents:
 	bg_event  5,  1, BGEVENT_READ, PlayersHouseBookshelfScript
 	bg_event  6,  0, BGEVENT_IFSET, PlayersHousePosterScript
 
-	db 4 ; object events
+	db 5 ; object events
 	object_event  4,  2, SPRITE_CONSOLE, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, GameConsoleScript, EVENT_PLAYERS_HOUSE_2F_CONSOLE
 	object_event  4,  4, SPRITE_DOLL_1, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Doll1Script, EVENT_PLAYERS_HOUSE_2F_DOLL_1
 	object_event  5,  4, SPRITE_DOLL_2, SPRITEMOVEDATA_STILL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, Doll2Script, EVENT_PLAYERS_HOUSE_2F_DOLL_2
 	object_event  0,  1, SPRITE_BIG_DOLL, SPRITEMOVEDATA_BIGDOLL, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, BigDollScript, EVENT_PLAYERS_HOUSE_2F_BIG_DOLL
+	object_event  1,  1, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, HelpScript, -1
